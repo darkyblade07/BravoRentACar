@@ -1,0 +1,62 @@
+{
+  "name": "bravo-rent-car",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "chart.js": "^4.3.3",
+    "core-js": "^3.8.3",
+    "es6-promise": "^4.2.8",
+    "google-maps": "^4.3.3",
+    "sass": "^1.65.1",
+    "sass-loader": "^13.3.2",
+    "vue": "^3.2.13",
+    "vue-chartist": "^3.0.0",
+    "vue-clickaway": "^2.2.2",
+    "vue-github-buttons": "^3.1.0",
+    "vue-material": "^1.0.0-beta-16",
+    "vue-router": "^4.2.4",
+    "vue-social-sharing": "^3.0.9",
+    "vue2-google-maps": "^0.10.7",
+    "webpack": "^5.88.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/no-deprecated-slot-attribute": "off",
+      "vue/no-deprecated-slot-scope-attribute":"off",
+      "vue/multi-word-component-names":"off",
+      "vue/no-deprecated-inline-template":"off",
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
